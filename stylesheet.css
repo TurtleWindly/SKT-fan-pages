@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', san-serif;
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/T1bg.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+    color: lightgray;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid lightgray;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.SKT {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.1em;
+}
+
+.section-header {
+    font-weight: normal;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.7em;
+    text-align: center;
+    margin: 0.8em;
+}
+
+.about-img-sktlogo {
+    border-radius: 1em;
+    float: left;
+    height: 200px;
+    margin: 1em;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: black;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.main-footer-container li {
+    display: inline-block;
+    margin: 0 5%;
+}
+
+.footer-nav {
+    padding: 0 5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
