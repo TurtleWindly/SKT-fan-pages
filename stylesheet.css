@@ -170,5 +170,23 @@ nav a {
 .tour-date {
     color: #555;
     font-weight: bold;
-    width: 11%;
+    width:30%;
+}
+
+.tour-area {
+    width: 47%;
+}
+
+.tour-btn {
+    max-width: 20%;
+    border: none;
+    background-color: rgb(251, 255, 42);
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tour-btn:hover {
+    background-color: rgba(251, 255, 42, 0.5);
+
 }
